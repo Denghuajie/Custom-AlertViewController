@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF618E271D4A0DCB0043FA71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF618E261D4A0DCB0043FA71 /* main.m */; };
+		EF618E2A1D4A0DCB0043FA71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF618E291D4A0DCB0043FA71 /* AppDelegate.m */; };
+		EF618E2D1D4A0DCB0043FA71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF618E2C1D4A0DCB0043FA71 /* ViewController.m */; };
+		EF618E301D4A0DCB0043FA71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF618E2E1D4A0DCB0043FA71 /* Main.storyboard */; };
+		EF618E321D4A0DCB0043FA71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF618E311D4A0DCB0043FA71 /* Assets.xcassets */; };
+		EF618E351D4A0DCB0043FA71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF618E331D4A0DCB0043FA71 /* LaunchScreen.storyboard */; };
+		EF618E3E1D4A0E1C0043FA71 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = EF618E3D1D4A0E1C0043FA71 /* Util.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF618E221D4A0DCB0043FA71 /* Custom-AlertViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom-AlertViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF618E261D4A0DCB0043FA71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF618E281D4A0DCB0043FA71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF618E291D4A0DCB0043FA71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF618E2B1D4A0DCB0043FA71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF618E2C1D4A0DCB0043FA71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF618E2F1D4A0DCB0043FA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF618E311D4A0DCB0043FA71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF618E341D4A0DCB0043FA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF618E361D4A0DCB0043FA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF618E3C1D4A0E1C0043FA71 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		EF618E3D1D4A0E1C0043FA71 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF618E1F1D4A0DCB0043FA71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF618E191D4A0DCB0043FA71 = {
+			isa = PBXGroup;
+			children = (
+				EF618E241D4A0DCB0043FA71 /* Custom-AlertViewController */,
+				EF618E231D4A0DCB0043FA71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF618E231D4A0DCB0043FA71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF618E221D4A0DCB0043FA71 /* Custom-AlertViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF618E241D4A0DCB0043FA71 /* Custom-AlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF618E3C1D4A0E1C0043FA71 /* Util.h */,
+				EF618E3D1D4A0E1C0043FA71 /* Util.m */,
+				EF618E281D4A0DCB0043FA71 /* AppDelegate.h */,
+				EF618E291D4A0DCB0043FA71 /* AppDelegate.m */,
+				EF618E2B1D4A0DCB0043FA71 /* ViewController.h */,
+				EF618E2C1D4A0DCB0043FA71 /* ViewController.m */,
+				EF618E2E1D4A0DCB0043FA71 /* Main.storyboard */,
+				EF618E311D4A0DCB0043FA71 /* Assets.xcassets */,
+				EF618E331D4A0DCB0043FA71 /* LaunchScreen.storyboard */,
+				EF618E361D4A0DCB0043FA71 /* Info.plist */,
+				EF618E251D4A0DCB0043FA71 /* Supporting Files */,
+			);
+			path = "Custom-AlertViewController";
+			sourceTree = "<group>";
+		};
+		EF618E251D4A0DCB0043FA71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF618E261D4A0DCB0043FA71 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF618E211D4A0DCB0043FA71 /* Custom-AlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF618E391D4A0DCB0043FA71 /* Build configuration list for PBXNativeTarget "Custom-AlertViewController" */;
+			buildPhases = (
+				EF618E1E1D4A0DCB0043FA71 /* Sources */,
+				EF618E1F1D4A0DCB0043FA71 /* Frameworks */,
+				EF618E201D4A0DCB0043FA71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Custom-AlertViewController";
+			productName = "Custom-AlertViewController";
+			productReference = EF618E221D4A0DCB0043FA71 /* Custom-AlertViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF618E1A1D4A0DCB0043FA71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mr.Deng;
+				TargetAttributes = {
+					EF618E211D4A0DCB0043FA71 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EF618E1D1D4A0DCB0043FA71 /* Build configuration list for PBXProject "Custom-AlertViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF618E191D4A0DCB0043FA71;
+			productRefGroup = EF618E231D4A0DCB0043FA71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF618E211D4A0DCB0043FA71 /* Custom-AlertViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF618E201D4A0DCB0043FA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF618E351D4A0DCB0043FA71 /* LaunchScreen.storyboard in Resources */,
+				EF618E321D4A0DCB0043FA71 /* Assets.xcassets in Resources */,
+				EF618E301D4A0DCB0043FA71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF618E1E1D4A0DCB0043FA71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF618E2D1D4A0DCB0043FA71 /* ViewController.m in Sources */,
+				EF618E2A1D4A0DCB0043FA71 /* AppDelegate.m in Sources */,
+				EF618E271D4A0DCB0043FA71 /* main.m in Sources */,
+				EF618E3E1D4A0E1C0043FA71 /* Util.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF618E2E1D4A0DCB0043FA71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF618E2F1D4A0DCB0043FA71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF618E331D4A0DCB0043FA71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF618E341D4A0DCB0043FA71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF618E371D4A0DCB0043FA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF618E381D4A0DCB0043FA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF618E3A1D4A0DCB0043FA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Custom-AlertViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Deng.Custom-AlertViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF618E3B1D4A0DCB0043FA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Custom-AlertViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Deng.Custom-AlertViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF618E1D1D4A0DCB0043FA71 /* Build configuration list for PBXProject "Custom-AlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF618E371D4A0DCB0043FA71 /* Debug */,
+				EF618E381D4A0DCB0043FA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF618E391D4A0DCB0043FA71 /* Build configuration list for PBXNativeTarget "Custom-AlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF618E3A1D4A0DCB0043FA71 /* Debug */,
+				EF618E3B1D4A0DCB0043FA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF618E1A1D4A0DCB0043FA71 /* Project object */;
+}
